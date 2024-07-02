@@ -16,19 +16,19 @@
     </head>
     <body>
         <main style="height: 10000px">
-            <!-- .....header..... -->
-            <header class="header">
+            <!-- fixed-header -->
+            <header class="fixed-header">
                 <div class="content">
                     <nav class="navbar">
                         <!-- logo -->
-                        <img src="./assets/img/Logo.svg" alt="" />
+                         <a href="#"><img src="./assets/img/Logo.svg" alt="" /></a>
                         <!-- navigation -->
                         <ul>
-                            <li><a href="#!">Home</a></li>
-                            <li><a href="#!">Fratures</a></li>
-                            <li><a href="#!">Service</a></li>
-                            <li><a href="#!">Listed</a></li>
-                            <li><a href="#!">Contact</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#Featured">Featured</a></li>
+                            <li><a href="#Service">Service</a></li>
+                            <li><a href="#Listed">Listed</a></li>
+                            <li><a href="#Contact">Contact</a></li>
                         </ul>
                         <!-- action -->
                         <div class="action">
@@ -36,6 +36,12 @@
                             <a href="#!" class="btn action-btn">Sign up</a>
                         </div>
                     </nav>
+                </div>
+            </header>
+            
+            <!-- .....header..... -->
+            <header class="header">
+                <div class="content">
                     <div class="hero">
                         <div class="info">
                             <p class="sub-title">Welcome to Besnik Agency</p>
@@ -58,7 +64,7 @@
                 </div>
             </header>
             <!-- clients -->
-            <div class="clients">
+            <div  class="clients">
                 <div class="content">
                     <div class="row">
                         <!-- logo -->
@@ -94,15 +100,25 @@
                         <p class="desc">5 Star Ratings (2k+ Review)</p>
                     </div>
                     <div class="image">
-                        <img src="./assets/img/logo (1).svg" alt="" />
-                        <img src="./assets/img/logo (2).svg" alt="" />
-                        <img src="./assets/img/Union.svg" alt="" />
-                        <img src="./assets/img/logo (4).svg" alt="" />
-                        <img src="./assets/img/logo (5).svg" alt="" />
+                        <a href="#!">
+                            <img src="./assets/img/logo (1).svg" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/logo (2).svg" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/Union.svg" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/logo (4).svg" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/logo (5).svg" alt="" />
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="guide">
+            <div id="Service" class="guide">
                 <div class="content">
                     <h2 class="sub-title">How its works?</h2>
                     <p class="desc">
@@ -166,7 +182,7 @@
                 </div>
             </div>
             <!-- Featured -->
-            <div class="featured">
+            <div id="Featured" class="featured">
                 <div class="content">
                     <header>
                         <h2 class="sub-title">Featured Properties</h2>
@@ -319,7 +335,7 @@
                 </div>
             </div>
             <!-- Stats -->
-            <div class="stats">
+            <div id="Listed" class="stats">
                 <div class="content" style="width: 1048px">
                     <div class="row">
                         <div class="img-block">
@@ -473,7 +489,7 @@
                 </div>
             </div>
             <!-- Subcription -->
-            <div class="subcription">
+            <div id="Contact" class="subcription">
                 <div class="content">
                     <div class="body">
                         <div class="info">
